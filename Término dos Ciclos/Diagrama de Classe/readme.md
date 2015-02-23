@@ -1,4 +1,4 @@
-Término dos Ciclos
-=================
+Diagrama de Classes
+===================
 
-Aqui serão armazenadas as junções de todos os artefatos produzidos nos 4 Ciclos de Desenvolvimento
+
