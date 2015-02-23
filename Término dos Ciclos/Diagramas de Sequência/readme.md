@@ -1,2 +1,2 @@
-Modelo Conceitual
-=================
+Diagramas de Sequência
+======================
