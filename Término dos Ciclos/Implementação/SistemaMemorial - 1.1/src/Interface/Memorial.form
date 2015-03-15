@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Memorial"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jTabbedPane1" min="-2" pref="433" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="11" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Informa&#xe7;&#xf5;es">
+                <Property name="tabTitle" type="java.lang.String" value="Informa&#xe7;&#xf5;es"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="674" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="405" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="text" type="java.lang.String" value="1. Forma&#xe7;&#xe3;o acad&#xea;mica: &#xa;2. Forma&#xe7;&#xe3;o t&#xe9;cnica: &#xa;3. Idiomas: &#xa;4.1. Ensino fundamental: &#xa;4.2. Ensino m&#xe9;dio: &#xa;4.3. Ensino Superior: &#xa;4.4. Resid&#xea;ncia m&#xe9;dica: &#xa;4.5. Especializa&#xe7;&#xe3;o: &#xa;4.6. P&#xf3;s-gradua&#xe7;&#xe3;o: &#xa;4.7. Mestrado: &#xa;4.8. Doutorado: &#xa;5. Atividades profissionais: &#xa;6. Participa&#xe7;&#xe3;o em Conselhos, Comiss&#xf5;es e Consultorias: &#xa;7. Cargos e Fun&#xe7;&#xe3;o de Dire&#xe7;&#xe3;o e Administra&#xe7;&#xe3;o: &#xa;8. Atividades docentes: &#xa;9. Atividades assistenciais: &#xa;10.Atividades did&#xe1;ticas: &#xa;11. Banca examinadora: &#xa;12. Est&#xe1;gios: &#xa;13. Atividades de extens&#xe3;o universit&#xe1;ria: &#xa;14. Publica&#xe7;&#xf5;es: &#xa;15. Participa&#xe7;&#xe3;o em eventos: &#xa;15.1. Como ouvinte: &#xa;15.2. Apresentando trabalho: &#xa;15.3. Na organiza&#xe7;&#xe3;o: &#xa;15.4. Como palestrante: &#xa;15.5. Como instrutor: &#xa;15.6. Como secret&#xe1;rio: &#xa;16. Orienta&#xe7;&#xf5;es conclu&#xed;das: &#xa;16.1. Aperfei&#xe7;oamento e especializa&#xe7;&#xe3;o: &#xa;16.2. Inicia&#xe7;&#xe3;o cient&#xed;fica: &#xa;17. Filia&#xe7;&#xe3;o &#xe0; Sociedades Cient&#xed;ficas: &#xa;18. T&#xed;tulos: "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Anexos">
+                <Property name="tabTitle" type="java.lang.String" value="Anexos"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="206" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="228" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane2" pref="353" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="1" rowCount="11">
+                        <Column editable="false" title="Documentos anexados" type="java.lang.String"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="false">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Anexar documento"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Retirar anexo"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salvar"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
